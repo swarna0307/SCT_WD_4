@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: mediumslateblue;
+    background-color: rgb(4, 65, 245);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -34,7 +34,7 @@ form button {
 }
 
 form button {
-    color: rgb(255, 200, 0);
+    color: rgb(100, 255, 252);
     background: white;
     cursor: pointer;
     transition: all 0.3 ease;
@@ -43,7 +43,7 @@ form button {
 
 form button:hover {
     color: white;
-    background: rgb(255, 200, 0);
+    background: rgb(100, 255, 252);
 }
 
 .fa-plus-circle {
@@ -89,7 +89,7 @@ form button:hover {
 }
 
 .complete-btn {
-    background: rgb(255, 200, 0);
+    background: rgb(100, 255, 252);
 }
 
 .trash-btn {
@@ -133,7 +133,7 @@ select {
 }
 
 select {
-    color:rgb(255, 200, 0);
+    color:rgb(100, 255, 252);
     width: 10rem;
     height: 3.2rem;
     cursor: pointer;
@@ -143,7 +143,7 @@ select {
 .select::after {
     content: "\25BC";
     position: absolute;
-    background:rgb(255, 200, 0);
+    background:rgb(100, 255, 252);
     top: 0;
     right: 0;
     padding: 1rem;
@@ -153,5 +153,5 @@ select {
 
 .select::hover::after {
     background: white;
-    color: rgb(255, 200, 0);
+    color: rgb(100, 255, 252);
 }
